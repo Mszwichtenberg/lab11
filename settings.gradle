@@ -1,0 +1,16 @@
+rootProject.name = 'Westeros'
+
+include 'westeros-movies-client'
+project(':westeros-movies-client').projectDir = new File(rootDir, 'westeros-movies-client')
+
+include 'westeros-data'
+project(':westeros-data').projectDir = new File(rootDir, 'westeros-data')
+
+include 'westeros-diagnostics-tools'
+project(':westeros-diagnostics-tools').projectDir = new File(rootDir, 'westeros-diagnostics-tools')
+
+include 'westeros-updater'
+project(':westeros-updater').projectDir = new File(rootDir, 'westeros-updater')
+
+include 'westeros-web-api'
+project(':westeros-web-api').projectDir = new File(rootDir, 'westeros-web-api')
